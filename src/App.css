@@ -1,0 +1,28 @@
+body {
+  background: #141414;
+  color: white;
+}
+
+.img-list {
+  height: 400px;
+}
+
+.Brand {
+  color: aliceblue;
+}
+
+.movies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.add-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
