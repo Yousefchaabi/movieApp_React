@@ -1,6 +1,7 @@
 body {
   background: #141414;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .img-list {
@@ -25,4 +26,34 @@ body {
   margin: 20px auto;
   padding: 10px;
   border-radius: 5px;
+  background-color: forestgreen;
+  border: none;
+  color: white;
+}
+
+.restart-button {
+  background-color: forestgreen;
+  border: none;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.list-group-flush {
+  text-align: center;
+}
+
+.card-link {
+  text-decoration: none;
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: forestgreen;
 }

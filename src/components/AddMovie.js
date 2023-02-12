@@ -13,7 +13,7 @@ function AddMovie(props) {
   };
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className="add-button">
+      <Button variant="light" onClick={handleShow} className="add-button">
         Add movie
       </Button>
 

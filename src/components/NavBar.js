@@ -22,10 +22,11 @@ function NavBar(props) {
         />
         <Navbar.Brand>{props.rating}</Navbar.Brand>
         <Button
-          variant="primary"
+          variant="light"
           onClick={() => {
             resetRating();
           }}
+          className="restart-button"
         >
           Restart
         </Button>
