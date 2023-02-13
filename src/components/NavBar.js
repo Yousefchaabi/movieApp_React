@@ -16,11 +16,11 @@ function NavBar(props) {
           count={10}
           onChange={(newRating) => props.setRatingValue(newRating)}
           size={26}
-          value={props.rating}
+          value={props.ratingValue}
           half={false}
           color2={"#ffd700"}
         />
-        <Navbar.Brand>{props.rating}</Navbar.Brand>
+        <Navbar.Brand>{props.ratingValue}</Navbar.Brand>
         <Button
           variant="light"
           onClick={() => {
