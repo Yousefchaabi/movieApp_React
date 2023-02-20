@@ -54,6 +54,29 @@ body {
   border: 1px solid black;
   padding: 10px;
   border-radius: 5px;
-  color: white;
   background-color: forestgreen;
+}
+
+.home > h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.login > h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.register > h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }

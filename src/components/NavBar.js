@@ -1,16 +1,39 @@
 import React from "react";
 import { Navbar, Container, Nav, Form, Button } from "react-bootstrap";
 import ReactStars from "react-stars";
+import { NavLink } from "react-router-dom";
 
 function NavBar(props) {
   const resetRating = () => {
     props.setRatingValue();
   };
+
   return (
     <Navbar bg="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand className="text-white" size={26}>
-          Movie Store
+          <NavLink
+            to="/"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "green", textDecoration: "unset" }
+                : { color: "white", textDecoration: "unset" }
+            }
+          >
+            Home
+          </NavLink>
+        </Navbar.Brand>
+        <Navbar.Brand className="text-white" size={26}>
+          <NavLink
+            to="/movies"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "green", textDecoration: "unset" }
+                : { color: "white", textDecoration: "unset" }
+            }
+          >
+            Movies
+          </NavLink>
         </Navbar.Brand>
         <ReactStars
           count={10}

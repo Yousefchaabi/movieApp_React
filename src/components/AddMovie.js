@@ -33,37 +33,47 @@ function AddMovie(props) {
                 })
               }
             >
-              <Form.Label>Movie Title</Form.Label>
+              <Form.Label style={{ color: "black" }}>Movie Title</Form.Label>
               <Form.Control
                 type="text"
                 name="title"
                 placeholder="movie title"
                 autoFocus
               />
-              <Form.Label>Movie Cover</Form.Label>
+              <Form.Label style={{ color: "black", marginTop: "10px" }}>
+                Movie Cover
+              </Form.Label>
               <Form.Control
                 type="text"
                 name="cover"
                 placeholder="paste your cover link here"
                 autoFocus
               />
-              <Form.Label>Category</Form.Label>
+              <Form.Label style={{ color: "black", marginTop: "10px" }}>
+                Category
+              </Form.Label>
               <Form.Control
                 type="text"
                 name="category"
                 placeholder="set the category here"
                 autoFocus
               />
-              <Form.Label>Rate</Form.Label>
+              <Form.Label style={{ color: "black", marginTop: "10px" }}>
+                Rate
+              </Form.Label>
               <Form.Control type="number" min={0} name="rate" autoFocus />
-              <Form.Label>Cast</Form.Label>
+              <Form.Label style={{ color: "black", marginTop: "10px" }}>
+                Cast
+              </Form.Label>
               <Form.Control
                 name="cast"
                 type="text"
                 placeholder="movie's casts"
                 autoFocus
               />
-              <Form.Label>Release Date</Form.Label>
+              <Form.Label style={{ color: "black", marginTop: "10px" }}>
+                Release Date
+              </Form.Label>
               <Form.Control type="date" name="release" autoFocus />
             </Form.Group>
           </Form>
